@@ -1,0 +1,196 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: #323232;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#nav h5 {
+    color: white;
+    font-weight: 200;
+    font-size: 12px;
+    }
+
+    #nav h5:hover{
+text-decoration: underline;
+cursor: pointer;
+    }
+
+#nav i{
+    color: white;
+    cursor: pointer;
+}
+
+#nav2{
+    height: 50px;
+    width: 100%;
+    background-color:#f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#center {
+    height: 85%;
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#center img{
+    padding-left: 300px;
+    padding-top: 300px;
+    padding-bottom: 1%;
+}
+#nav2 p{
+    font-size: 15px;
+}
+#nav2 a{
+    text-decoration: none;
+}
+#center h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
+    color: white;
+    font-size: 50px;
+}
+#center h2{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%,0);
+    color: white;
+    font-weight: 500;
+}
+#center #links {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#links a{
+    font-size:22px;
+    color: rgb(65, 140,225);
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 500;
+}
+#page2 {
+    height: 70%;
+    width: 100%;
+    background-color: #ffff;
+    position: relative;
+    }
+    #page2 img{
+position: absolute;
+height: 500px;
+top: 50%;
+left: 20%;
+    }
+    #page2 h1{
+        position: absolute;
+        color:black;
+        top: 0%;
+        left: 49%;
+        font-size: 30px;
+        font-weight: 600;
+        transform: translate(-50%,0);
+            }
+            #page2 h2{
+                position: absolute;
+                top: 8%;
+                left: 49%;
+                transform: translate(-50%,0);
+                color:black;
+                font-size: 48px;
+            }
+            #page2 #links {
+                position: absolute;
+                top: 23%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            #links a{
+                font-size:22px;
+                color: rgb(65, 140,225);
+                text-decoration: none;
+                margin-right: 20px;
+                font-weight: 500;
+            }
+            #links a:hover{
+                text-decoration:underline;
+            }
+            #page2 a:hover{
+                text-decoration:underline;
+
+            }
+           #footer{
+            margin-top: 18%;
+            height: 40%;
+            width: 100%;
+        background-color: white; 
+        border-top: 2px solid black; 
+        display: flex;  
+        align-items: center;
+position: relative;
+justify-content: center;
+gap: 100px;
+        }
+        #div1{
+
+            cursor: pointer;
+            height: 100%;
+        }
+        #div1 :hover{
+            text-decoration: underline;
+        }
+        #div2{
+            height: 100%;
+            cursor: pointer;
+        }
+        #div2 :hover{
+            text-decoration: underline;
+        }
+        #div3{
+            cursor: pointer;
+            height: 100%;
+        }
+        #div3 :hover{
+            text-decoration: underline;
+        }
+        #div4{
+            cursor: pointer;
+            height: 100%;
+        }
+        #div4 :hover{
+            text-decoration: underline;
+        }
+        #div5{
+            cursor: pointer;
+            height: 100%;
+        }
+        #div5 :hover{
+            text-decoration: underline;
+        }
+           
